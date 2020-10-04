@@ -59,6 +59,8 @@ function draw() {
 
   if (wall.x-car.x < (car.width+wall.width)/2) {
       car.velocityX = 0;
+      car.x = 1275;
+      car.y = 100;
       var deformation=0.5 * weight * speed* speed/22509;
       if (deformation>180) {
           car.shapeColor=color(255,0,0);
@@ -76,6 +78,8 @@ function draw() {
   
       if (wall.x-car2.x < (car2.width+wall.width)/2) {
         car2.velocityX = 0;
+        car.x = 1275;
+      car.y = 100;
         var deformation=0.5 * weight * speed* speed/22509;
         if (deformation>180) {
             car2.shapeColor=color(255,0,0);
@@ -93,6 +97,8 @@ function draw() {
   
   if (wall.x-car3.x < (car3.width+wall.width)/2) {
     car3.velocityX = 0;
+    car.x = 1275;
+      car.y = 100;
     var deformation=0.5 * weight * speed* speed/22509;
     if (deformation>180) {
         car3.shapeColor=color(255,0,0);
@@ -109,6 +115,8 @@ function draw() {
 
 if (wall.x-car4.x < (car4.width+wall.width)/2) {
   car4.velocityX = 0;
+  car.x = 1275;
+      car.y = 100;
   var deformation=0.5 * weight * speed* speed/22509;
   if (deformation>180) {
       car4.shapeColor=color(255,0,0);
